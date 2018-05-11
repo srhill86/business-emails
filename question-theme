@@ -22,67 +22,33 @@
 
 
 
-      <a class="link-back" href="/start-page">Back</a>
+<div class="form-group">
+  <fieldset>
+
+    <legend>
+      <h2 class="heading-medium">Which types of waste do you transport regularly?</h3>
+      <span class="body-text">Select all that apply</span>
+    </legend>
+
+    <div class="multiple-choice">
+      <input id="waste-type-1" name="waste-types" type="checkbox" value="waste-animal">
+      <label for="waste-type-1">Waste from animal carcasses</label>
+    </div>
+    <div class="multiple-choice">
+      <input id="waste-type-2" name="waste-types" type="checkbox" value="waste-mines">
+      <label for="waste-type-2">Waste from mines or quarries</label>
+    </div>
+    <div class="multiple-choice">
+      <input id="waste-type-3" name="waste-types" type="checkbox" value="waste-farm-agricultural">
+      <label for="waste-type-3">Farm or agricultural waste</label>
+    </div>
+
+  </fieldset>
+</div>      <a class="link-back" href="/start-page">Back</a>
 
 
 
-      <h1 class="heading-large">
-
-        What is your date of birth?
-
-      </h1>
-
-
-
-      <form class="form">
-
-
-
-        <fieldset class="form-group">
-
-          <legend class="visuallyhidden">Date of birth</legend>
-
-          <div class="form-date">
-
-
-
-            <p class="form-hint">For example, 31 3 1980</p>
-
-
-
-            <div class="form-group form-group-day">
-
-              <label for="dob-day">Day</label>
-
-              <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" min="0" max="31">
-
-            </div>
-
-
-
-            <div class="form-group form-group-month">
-
-              <label for="dob-month">Month</label>
-
-              <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" min="0" max="12">
-
-            </div>
-
-
-
-            <div class="form-group form-group-year">
-
-              <label for="dob-year">Year</label>
-
-              <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" min="0" max="2014">
-
-            </div>
-
-
-
-          </div>
-
-        </fieldset>
+      
 
 
 
